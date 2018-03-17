@@ -6,16 +6,20 @@ body{
     box-sizing: border-box;  
     margin: auto;
     text-align: center;
+    background-image: url("C:/Users/bmcgi/lc101/html-me-something/images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    margin-bottom: 2em; 
     
 }
 
-#header{
-    margin-bottom: 2em;
-    
-}
-
-footer{
+#footer{
     margin: 1em;
+    color: white;
 }
 
 section{
@@ -23,6 +27,8 @@ section{
     background-color: rgba(255, 228, 181, 0.432); 
     padding: 0% 1.3% 1%;
     border-radius: 5%;
+    font-size: 18px;
+    
 }
 
 img{
@@ -33,21 +39,29 @@ img{
 
 a:link {
     color: blue;
+    
 }
 
 a:visited {
     color: burlywood;
+    
 }
 
 a:hover, li:hover {
     color: greenyellow;
     background-color: darkslategrey;
+    transition: all 0.3s ease;
+    
 }
 
 .photos{
-    width: 26.5em;
-    height: 25em;
+    width: 23.5em;
+    height: 23.5 em;
     margin: 0em;
+}
+
+a{
+    text-decoration: none;
 }
 
 li{
@@ -59,6 +73,5 @@ li{
     position: relative;
     left: -2.1%;
 }
-
 
 
