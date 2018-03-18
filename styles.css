@@ -38,20 +38,21 @@ img{
 }
 
 a:link {
-    color: blue;
-    
+    color: whitesmoke;
 }
+    
+    
+    
 
 a:visited {
     color: burlywood;
-    
 }
-
-a:hover, li:hover {
-    color: greenyellow;
-    background-color: darkslategrey;
-    transition: all 0.3s ease;
     
+    
+
+a:hover {
+    color: teal;
+    transition: all 0.3s ease;
 }
 
 .photos{
@@ -62,16 +63,15 @@ a:hover, li:hover {
 
 a{
     text-decoration: none;
-}
-
-li{
-    display: inline;
     margin: .1em;
-    background-color: chocolate; 
     padding: .7em;
     border-radius: 100%;
     position: relative;
     left: -2.1%;
+    background-image: url("C:/Users/bmcgi/lc101/html-me-something/images/bg4.jpg");
 }
+    
+    
+
 
 
